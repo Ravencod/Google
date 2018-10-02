@@ -1,0 +1,165 @@
+ html, body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ body {
+    display: table;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  footer {
+      bottom: 0;
+      background: #f2f2f2;
+      width: 100%;
+      position: absolute;
+  }
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin-left: 14px;
+}
+
+#navbar a {
+    color: #222;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+
+#navbar li img {
+    height: 16px;
+    opacity: 0.5;
+}
+#navbar li img:hover {
+    height: 16px;
+    opacity: 1;
+}
+
+.sign {
+    border: 10px solid #4285f4;
+
+    font-weight: bold;
+    
+    background: #4285f4;
+
+    color: white;
+}
+
+#container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10%;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+#container a:hover {
+    text-decoration: underline;
+}
+
+.google_icon {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.buttons input
+{
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;align-items: flex-end;
+    text-align: center;
+}
+
+.buttons input:hover {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #332b2b;
+    border-radius: 2px;
+    color: #0f0808;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;align-items: flex-end;
+    text-align: center;
+}
+
+.champ {
+    border: rvb(100, 100, 100);
+    margin-bottom: 10px;
+    width:559px;
+    height:34px;
+}
+.champ:hover {
+    border: rvb(100, 100, 100);
+    margin-bottom: 10px;
+    width:559px;
+    height:34px;
+    box-shadow: -1px 1px 10px rgb(68, 55, 55);
+}
+
+.fbar1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid #e3e3e3 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    color: #757575;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid #e3e3e3 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #757575;
+}
+
+.l2 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    padding: 0;
+}
+
+.l2 li {
+    margin-left: 10px;
+}
