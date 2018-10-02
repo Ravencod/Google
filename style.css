@@ -52,17 +52,24 @@
     opacity: 1;
 }
 
-#navbar .sign {
-    color: #fff;
-    line-height: 28px;
-    padding: 0 12px;
-    border-radius: 2px;
-    border: 1px solid #4485f6;
+#navbar a {
+    text-decoration: none;
     outline: none;
-    background: #4485f6;
-    font-weight: bold;
-    cursor: default;
-}
+  }
+  
+  
+  #navbar .sign {
+      color: #fff;
+      line-height: 28px;
+      margin-left: 17px;
+      padding: 0 12px;
+      border-radius: 2px;
+      border: 1px solid #4485f6;
+      outline: none;
+      background: #4485f6;
+      font-weight: bold;
+      cursor: default;
+  }
 
 #container {
 display: flex;
