@@ -53,6 +53,7 @@
 }
 
 #navbar .sign {
+    color: #fff;
     line-height: 28px;
     padding: 0 12px;
     border-radius: 2px;
@@ -107,9 +108,9 @@ font-size: small;
     height: 36px;
     line-height: 27px;
     background-color: #f2f2f2;
-    border: 1px solid #332b2b;
+    border: 1px solid #c6c6c6;
     border-radius: 2px;
-    color: #0f0808;
+    color: #222;
     cursor: default;
     font-family: arial,sans-serif;
     font-size: 13px;
@@ -118,20 +119,16 @@ font-size: small;
     min-width: 54px;
     padding: 0 16px;align-items: flex-end;
     text-align: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
 
 .champ {
-    border: rvb(100, 100, 100);
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
     margin-bottom: 10px;
-    width:559px;
-    height:34px;
-}
-.champ:hover {
-    border: rvb(100, 100, 100);
-    margin-bottom: 10px;
-    width:559px;
-    height:34px;
-    box-shadow: -1px 1px 10px rgb(68, 55, 55);
+    width:584px;
+    height:44px;
 }
 
 .fbar1 {
