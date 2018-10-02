@@ -1,3 +1,3 @@
-<strong>Google front page<strong>
-<em>by Raphael  & Axel<em>
+<h1>Google front page made by awesome guys :<h1>
+<em> Raphael  & Axel<em>
   <br/>http://Ravencod.github.io
